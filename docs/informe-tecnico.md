@@ -1,16 +1,15 @@
-# Informe técnico del modelo local
+# Informe técnico - Caracterización del modelo
 
 | Dato | Valor |
-|------|------|
-| Perfil de hardware | Perfil A (16 GB o más) |
-| RAM total del equipo | 7.8 GiB disponibles en WSL (24 GB físicos del equipo) |
+|------|-------|
+| Perfil de hardware | Perfil B (8 GB RAM) |
+| RAM total del equipo | 7.8 GiB |
 | Modelo y etiqueta | qwen2.5-coder:1.5b |
-| Tamaño en disco | *(copiar el valor de `ollama list`)* |
-| Latencia ejecución 1 | |
-| Latencia ejecución 2 | |
-| Latencia ejecución 3 | |
-| Latencia ejecución 4 | |
-| Latencia ejecución 5 | |
-| Latencia promedio | |
-| RAM usada durante la inferencia | |
-| Calidad percibida (1 a 5) | 5/5. Respondió correctamente a las pruebas realizadas. |
+| Tamaño en disco | 986 MB |
+| Latencia 1 | 1.829 s |
+| Latencia 2 | 1.875 s |
+| Latencia 3 | 2.099 s |
+| Latencia 4 | 1.937 s |
+| Latencia 5 | 1.973 s |
+| Latencia promedio | 1.94 s |
+| RAM usada durante la inferencia | 647 MiB |
