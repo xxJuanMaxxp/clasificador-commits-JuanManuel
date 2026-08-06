@@ -112,7 +112,7 @@ def health():
             "base_datos": "ok",
         }
 
-    except Exception:
+    except psycopg2.Error:
         raise HTTPException(
             status_code=503,
             detail="Base de datos no disponible",
